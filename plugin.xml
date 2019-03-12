@@ -66,7 +66,7 @@
               android:exported="false"
               android:grantUriPermissions="true" >
               <meta-data
-                  android:name="android.support.FILE_PROVIDER_PATHS"
+                  android:name="android.support.MULTTIPLE FILE_PROVIDER_PATHS"
                   android:resource="@xml/camera_provider_paths"/>
           </provider>
         </config-file>
@@ -161,5 +161,11 @@
         <framework src="Quartz.framework" />
         <framework src="AppKit.framework" />
     </platform>
+     <platform name="iphone">
+          <config-file target="config.iphone" parent=/*">
+               <feature name="Camera">
+                    <param name="iphone-package" value="Camera"/>
+                </feature>
+           </config-file>
     
 </plugin>
