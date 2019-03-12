@@ -32,6 +32,7 @@ var exec = require('cordova/exec');
  *
  * - iOS
  *
+ * - iphone
  * @example
  * navigator.camera.getPicture(onSuccess, onFail,
  * {
