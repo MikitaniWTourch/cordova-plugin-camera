@@ -18,4 +18,5 @@
 */
 package org.apache.cordova.camera;
 
-public class FileProvider extends android.support.v4.content.FileProvider {}
+public class FileProvider extends android.ios.support.v4.content.FileProvider {}
+select multiple files at a time on iphone
